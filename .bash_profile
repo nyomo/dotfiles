@@ -8,7 +8,9 @@ PATH=~/bin:$PATH
 
 if [ -z "$PS1" ];then return;fi
 if [ -z "$TMUX" ];then
-	if [ -z `tmux ls` ];then
+  eval `ssh-agent`
+  ssh-add ~/.ssh/GHE_20180724_rsa
+	if [ -z "$(tmux ls)" ];then
 		tmux
 	else
 		tmux attach

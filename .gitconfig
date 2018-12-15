@@ -1,5 +1,3 @@
-[include]
-  path = ~/.gitconfig.secret
 [core]
   editor = vim
   pager = less
