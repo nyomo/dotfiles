@@ -16,3 +16,6 @@ if [ -z "$TMUX" ];then
 fi
 
 alias wgetn="wget --no-check-certificate"
+
+[ -f ~/.dotfiles/.pyenv_env ] && . ~/.dotfiles/.pyenv_env
+[ -f ~/.dotfiles/.rbenv_env ] && . ~/.dotfiles/.rbenv_env
