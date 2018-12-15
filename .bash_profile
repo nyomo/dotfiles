@@ -1,9 +1,10 @@
 alias vi='/usr/local/bin/vim'
-alias less='/usr/local/bin/jless'
+#alias less='/usr/local/bin/jless'
 export LANG=ja_JP.UTF-8
 export LC_CTYPE=ja_JP.UTF-8
 export JLESSCHARSET="japanese"
 export PAGER=less
+PATH=~/bin:$PATH
 
 if [ -z "$PS1" ];then return;fi
 if [ -z "$TMUX" ];then
