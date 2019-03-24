@@ -7,3 +7,7 @@ ln -s $DOTFILEDIR/.git
 ln -s $DOTFILEDIR/.gitconfig
 ln -s $DOTFILEDIR/.tmux.conf
 ln -s $DOTFILEDIR/.vimrc
+
+
+mkdir -p ~/.vim/temp
+mkdir -p ~/.vim/plugin
