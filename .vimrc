@@ -4,7 +4,7 @@ set backupdir=$HOME/.vim/temp
 set directory=$HOME/.vim "recovery
 set encoding=utf-8
 set fileencodings=utf-8,euc-jp,cp932
-"colorscheme black
+colorscheme delek
 syntax on
 " Save fold settings.
 autocmd BufWritePost * if expand('%') != '' && &buftype !~ 'nofile' | mkview | endif
