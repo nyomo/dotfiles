@@ -1,6 +1,6 @@
 set ts=2
 set backup
-set backupdir=$HOME/.vim
+set backupdir=$HOME/.vim/temp
 set directory=$HOME/.vim "recovery
 set encoding=utf-8
 set fileencodings=utf-8,euc-jp,cp932
