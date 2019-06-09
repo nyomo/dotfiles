@@ -16,6 +16,7 @@ if [ -z "$TMUX" ];then
 		tmux attach
 	fi
 fi
+[ -z "$(cat /proc/version | grep -i 'microsoft')"  ] || cat /proc/version | grep -i 'microsoft'
 
 alias wgetn="wget --no-check-certificate"
 
