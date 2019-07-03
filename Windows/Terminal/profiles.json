@@ -8,20 +8,6 @@
         "keybindings" : 
         [
             {
-                "command" : "closeTab",
-                "keys" : 
-                [
-                    "ctrl+w"
-                ]
-            },
-            {
-                "command" : "newTab",
-                "keys" : 
-                [
-                    "ctrl+t"
-                ]
-            },
-            {
                 "command" : "newTabProfile0",
                 "keys" : 
                 [
