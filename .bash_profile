@@ -4,7 +4,7 @@ export LANG=ja_JP.UTF-8
 export LC_CTYPE=ja_JP.UTF-8
 export JLESSCHARSET="japanese"
 export PAGER=less
-PATH=~/bin:$PATH
+PATH=~/bin:/mnt/c/Windows/System32:$PATH
 
 if [ -z "$PS1" ];then return;fi
 if [ -z "$TMUX" ];then
