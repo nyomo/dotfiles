@@ -8,13 +8,12 @@ PATH=~/bin:$PATH
 
 if [ -z "$PS1" ];then return;fi
 if [ -z "$TMUX" ];then
-	if [ -z `tmux ls` ];then
+	if [ -z "$(tmux ls)" ];then
 		tmux
 	else
-		tmux attach
+    if [ -z "$(tmux lsc)" ];then tmux attach ;fi
 	fi
 fi
-
 alias wgetn="wget --no-check-certificate"
 
 [ -f ~/.dotfiles/.pyenv_env ] && . ~/.dotfiles/.pyenv_env
