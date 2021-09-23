@@ -1,3 +1,9 @@
+## 使い方
+
+1. gitとなんかコンパイラとか一式入れておく
+2. git clone git@github.com:nyomo/dotfiles.git .dotfiles
+3. sh .dotfiles/init.sh
+
 ## よく使うやつ
 
 - ssh鍵を作る
